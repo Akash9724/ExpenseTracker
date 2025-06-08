@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "Welcome to Expense Tracker";
+}
+
+<div class="homepage-wrapper d-flex flex-column justify-content-center align-items-center text-center text-white px-3">
+    <div class="overlay position-absolute w-100 h-100"></div>
+    <div class="content z-index-2">
+        <h1 class="display-3">Track Smarter.<br />Spend Better.</h1>
+        <p class="lead mt-3">Your personal finance dashboard to manage expenses, budgets, and savings goals.</p>
+        <div class="action-buttons d-flex flex-column flex-md-row justify-content-center gap-3 mt-4">
+            <a asp-controller="Expense" asp-action="AddOrEdit" class="btn btn-success btn-lg">+ Add Expense</a>
+            <a asp-controller="Expense" asp-action="Index" class="btn btn-outline-light btn-lg">📋 View Expenses</a>
+        </div>
+    </div>
+</div>
+
+<!-- Features Section -->
+<section class="text-white text-center py-5 px-3" style="background-color: rgba(255, 255, 255, 0.1); backdrop-filter: blur(4px);">
+    <div class="container">
+        <h2 class="mb-4">Why Use Expense Tracker Pro?</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <h4>📊 Easy Budgeting</h4>
+                <p>Create and manage budgets to stay in control of your spending.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>📅 Expense History</h4>
+                <p>Track all your past expenses with date-wise filtering and search.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>📈 Insightful Charts</h4>
+                <p>Visualize spending patterns with helpful graphs and summaries.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How it Works -->
+<section class="text-white text-center py-5 px-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="container">
+        <h2 class="mb-4">How It Works</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <h4>Step 1</h4>
+                <p> start by adding your expenses easily.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Step 2</h4>
+                <p>Organize expenses by category, date, and amount.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Step 3</h4>
+                <p>Analyze your finances and reach your savings goals.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section Styles {
+    <style>
+        body, html {
+
+            height: 100%;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+
+        .homepage-wrapper {
+            
+            background-size: 200% 200%;
+            animation: gradientShift 15s ease infinite;
+            height: 100vh;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+           
+
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+
+        .content {
+            z-index: 2;
+            max-width: 700px;
+            padding: 20px;
+
+        }
+
+        .action-buttons .btn {
+            margin: 10px;
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+
+            .btn-success:hover {
+                background-color: #218838;
+                border-color: #1e7e34;
+            }
+
+        .btn-outline-light:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        @@keyframes gradientShift {
+            0%
+
+        {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+
+        }
+
+        section {
+            padding: 60px 0;
+            border-radius: 12px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+    </style>
+}

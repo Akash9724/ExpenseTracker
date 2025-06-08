@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\My projects\\ExpenseTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\views\\expense\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:views\\expense\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\views\\expense\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:views\\expense\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\views\\expense\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:views\\expense\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\views\\expense\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:views\\expense\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\expensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:expensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\models\\expensesummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:models\\expensesummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|y:\\my projects\\expensetracker\\migrations\\20250607083606_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398B40CA-1700-431F-AAEC-ABE6B6FE4EC4}|ExpenseTracker.csproj|solutionrelative:migrations\\20250607083606_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEIAAAAAAAAAAADwv1wAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-07T09:17:39.752Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T04:33:09.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T04:29:42.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T03:45:08.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Homepage.cshtml",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Views\\Expense\\Homepage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Expense\\Homepage.cshtml",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Views\\Expense\\Homepage.cshtml",
+              "RelativeToolTip": "Views\\Expense\\Homepage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T18:45:10.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Views\\Expense\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Expense\\AddOrEdit.cshtml",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Views\\Expense\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Views\\Expense\\AddOrEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T09:33:41.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Views\\Expense\\Summary.cshtml",
+              "RelativeDocumentMoniker": "Views\\Expense\\Summary.cshtml",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Views\\Expense\\Summary.cshtml",
+              "RelativeToolTip": "Views\\Expense\\Summary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T09:14:34.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExpenseSummaryViewModel.cs",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Models\\ExpenseSummaryViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ExpenseSummaryViewModel.cs",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Models\\ExpenseSummaryViewModel.cs",
+              "RelativeToolTip": "Models\\ExpenseSummaryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T09:13:34.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:55:19.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:50:12.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExpenseTracker.csproj",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\ExpenseTracker.csproj",
+              "RelativeDocumentMoniker": "ExpenseTracker.csproj",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\ExpenseTracker.csproj",
+              "RelativeToolTip": "ExpenseTracker.csproj",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAewBcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-07T08:44:10.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExpenseController.cs",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "Controllers\\ExpenseController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAkwGAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:42:15.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "Models\\Expense.cs",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Models\\Expense.cs",
+              "RelativeToolTip": "Models\\Expense.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAywBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:41:50.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250607083606_InitialCreate.cs",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Migrations\\20250607083606_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250607083606_InitialCreate.cs",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Migrations\\20250607083606_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250607083606_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:36:06.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T08:34:55.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:34:36.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Y:\\My projects\\ExpenseTracker\\Views\\Expense\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Expense\\Index.cshtml",
+              "ToolTip": "Y:\\My projects\\ExpenseTracker\\Views\\Expense\\Index.cshtml",
+              "RelativeToolTip": "Views\\Expense\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T08:33:25.279Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

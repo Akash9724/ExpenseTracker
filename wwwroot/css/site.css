@@ -1,0 +1,164 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #f1f1f1; /* Light font color */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #2b5876, #4e4376, #1a2980, #26d0ce);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.table {
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f1f1f1; /* Light text for table content */
+}
+
+    .table th {
+        background-color: #343a40;
+        color: #f1f1f1;
+    }
+
+    .table td {
+        color: #f1f1f1;
+    }
+
+.btn {
+    margin-right: 5px;
+}
+
+.container {
+    margin-top: 20px;
+    color: #f1f1f1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+
+.text-danger {
+    font-size: 0.875em;
+    color: #ff6b6b;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.05); /* Optional: semi-transparent dark card */
+    color: #f1f1f1;
+}
+
+.card-header {
+    background-color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding: 15px 20px;
+    color: #f1f1f1;
+}
+
+.card-body {
+    padding: 20px;
+    color: #f1f1f1;
+}
+
+.rupee-symbol:before {
+    content: "₹";
+    margin-right: 4px;
+}
+
+/* Form Fields */
+label,
+.form-control,
+input,
+textarea,
+select {
+    color: #f1f1f1;
+    
+    border-color: #ccc;
+}
+
+    .form-control::placeholder {
+        color: #ccc;
+    }
+
+    /* Custom select dropdown styles */
+    select.form-control {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+        color: #ffffff !important;
+        border-color: #6c757d !important;
+    }
+
+        select.form-control option {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+
+        select.form-control:focus {
+            border-color: #80bdff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+
+    /* For the dropdown arrow */
+    select.form-control {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+        background-size: 16px 12px;
+    }
+
+/* Footer */
+footer {
+    margin-top: auto;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+    color: #f1f1f1;
+}
+
+/* Animated Background */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Floating Coin Animation */
+.coin {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="gold" stroke="%23d4af37" stroke-width="1"/><text x="12" y="16" font-family="Arial" font-size="8" text-anchor="middle" fill="%23d4af37">₹</text></svg>');
+    background-size: contain;
+    opacity: 0.7;
+    z-index: -1;
+    animation: float linear infinite;
+}
+
+@keyframes float {
+    to {
+        transform: translateY(-100vh) rotate(360deg);
+    }
+}
+
+/* Text Utility Overrides */
+.text-dark,
+.text-body,
+.text-muted,
+.text-secondary {
+    color: #f1f1f1 !important;
+}

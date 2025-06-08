@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ExpenseTracker</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" asp-append-version="true" />
+
+
+
+   
+
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="~/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    @RenderSection("Styles", required: false)
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+            <div class="container">
+
+                <a class="navbar-brand" asp-area="" asp-controller="Expense" asp-action="Homepage">💰 Expense Tracker</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer bg-dark text-muted">
+        <div class="container text-center">
+            &copy; @DateTime.Now.Year - ExpenseTracker
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        // Create floating coins
+        function createCoins() {
+            const numCoins = 15;
+            for (let i = 0; i < numCoins; i++) {
+                const coin = document.createElement('div');
+                coin.classList.add('coin');
+
+                // Random position and size
+                const size = Math.random() * 20 + 10;
+                coin.style.width = `${size}px`;
+                coin.style.height = `${size}px`;
+                coin.style.left = `${Math.random() * 100}vw`;
+                coin.style.bottom = `-${size}px`;
+
+                // Random animation duration and delay
+                const duration = Math.random() * 15 + 10;
+                const delay = Math.random() * 15;
+                coin.style.animationDuration = `${duration}s`;
+                coin.style.animationDelay = `${delay}s`;
+
+                document.body.appendChild(coin);
+            }
+        }
+
+        // Run when page loads
+        document.addEventListener('DOMContentLoaded', createCoins);
+    </script>
+    
+</body>
+</html>

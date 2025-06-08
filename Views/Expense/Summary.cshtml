@@ -1,0 +1,178 @@
+﻿@model ExpenseSummaryViewModel
+@{
+    ViewData["Title"] = "Expense Summary";
+}
+
+<div class="container py-4">
+    <h2 class="text-center mb-4 text-white">Expense Summary</h2>
+    <div class="d-flex justify-content-center mb-3">
+        <a asp-action="Index" class="btn btn-secondary">Back to Expenses</a>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-12 col-md-6">
+            <div class="card bg-transparent border-light h-100">
+                <div class="card-header bg-transparent border-light text-white">
+                    <h4>Expense by Category</h4>
+                </div>
+                <div class="card-body">
+                    <canvas id="categoryChart" class="w-100" style="max-height: 400px;"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card bg-transparent border-light h-100">
+                <div class="card-header bg-transparent border-light text-white">
+                    <h4>Monthly Expenses</h4>
+                </div>
+                <div class="card-body">
+                    <canvas id="monthlyChart" class="w-100" style="max-height: 400px;"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+    <script>
+        // Category Pie Chart (Updated for Rupees)
+        const categoryCtx = document.getElementById('categoryChart').getContext('2d');
+        const categoryChart = new Chart(categoryCtx, {
+            type: 'pie',
+            data: {
+                labels: @Json.Serialize(Model.CategoryTotals.Keys),
+                datasets: [{
+                    data: @Json.Serialize(Model.CategoryTotals.Values),
+                    backgroundColor: [
+                        '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0',
+                        '#9966FF', '#FF9F40', '#8AC24A', '#607D8B'
+                    ],
+                    borderColor: 'rgba(255, 255, 255, 0.2)', // Light border for pie segments
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: {
+                            color: '#ffffff', // White legend text
+                            font: {
+                                size: 14
+                            }
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.7)', // Dark semi-transparent tooltip
+                        callbacks: {
+                            label: function(context) {
+                                return `${context.label}: ₹${context.raw.toFixed(2)}`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Monthly Bar Chart (Updated for Rupees)
+        const monthlyCtx = document.getElementById('monthlyChart').getContext('2d');
+        const monthlyChart = new Chart(monthlyCtx, {
+            type: 'bar',
+            data: {
+                labels: @Json.Serialize(Model.MonthlyTotals.Keys),
+                datasets: [{
+                    label: 'Monthly Expenses',
+                    data: @Json.Serialize(Model.MonthlyTotals.Values),
+                    backgroundColor: 'rgba(54, 162, 235, 0.7)', // Semi-transparent blue
+                    borderColor: 'rgba(255, 255, 255, 0.8)', // White border
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        ticks: {
+                            color: '#ffffff', // White x-axis labels
+                            font: {
+                                size: 12
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)' // Very light grid
+                        }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            color: '#ffffff', // White y-axis labels
+                            callback: function(value) {
+                                return '₹' + value;
+                            },
+                            font: {
+                                size: 12
+                            }
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)' // Very light grid
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: '#ffffff', // White legend text
+                            font: {
+                                size: 14
+                            }
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.7)', // Dark semi-transparent tooltip
+                        callbacks: {
+                            label: function(context) {
+                                return `Total: ₹${context.raw.toFixed(2)}`;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+    <style>
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+
+        .card-header {
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
+
+        body {
+            color: white;
+        }
+
+        canvas {
+            max-width: 100% !important;
+            height: auto !important;
+        }
+
+        @@media (max-width: 576px) {
+            h2
+
+        {
+            font-size: 1.5rem;
+        }
+
+        .card-header h4 {
+            font-size: 1.1rem;
+        }
+
+        }
+    </style>
+}
